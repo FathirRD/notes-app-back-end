@@ -112,7 +112,7 @@ const deleteNoteByIdHandler = (request, h) => {
     return response;
   }
 
- const response = h.response({
+  const response = h.response({
     status: 'fail',
     message: 'Catatan gagal dihapus. Id tidak ditemukan',
   });

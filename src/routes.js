@@ -3,7 +3,7 @@ const {
   getAllNotesHandler,
   getNoteByIdHandler,
   editNoteByIdHandler,
-  deleteNoteByIdHandler
+  deleteNoteByIdHandler,
 } = require('./handler');
 
 const routes = [
@@ -31,7 +31,7 @@ const routes = [
     method: 'DELETE',
     path: '/notes/{id}',
     handler: deleteNoteByIdHandler,
-  }
+  },
 ];
 
 module.exports = routes;
